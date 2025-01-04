@@ -21,7 +21,7 @@ export default function RegisterCTA() {
         >
           Join industry leaders and innovators for a day of learning, networking, and inspiration.
         </motion.p>
-        <a className='flex items-center justify-center' target='blank' href="https://tix.africa/the-transformative-cloud-innovations-the-future-is-cloud">
+        <a className='flex items-center justify-center' target='blank' href="https://www.meetup.com/meetup-group-culecvjx/events/305398186/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

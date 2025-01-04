@@ -28,7 +28,7 @@ export default function Hero() {
           className="flex justify-center space-x-4"
         >
           <a className="btn-secondary">Learn More</a>
-          <a target='blank' href="https://tix.africa/the-transformative-cloud-innovations-the-future-is-cloud">
+          <a target='blank' href="https://www.meetup.com/meetup-group-culecvjx/events/305398186/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

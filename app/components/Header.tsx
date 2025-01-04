@@ -2,6 +2,8 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Link from 'next/link'
+import Logo from '../assets/arthurite-logo.png'
+import Image from 'next/image'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -15,7 +17,13 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <Link href="/" className="text-2xl font-bold text-[#065430]">Arthurite Integrated</Link>
+            <div className='flex justify-center items-center'>
+              <div>
+                <Image src={Logo} alt="Arthurite Logo" width={50} height={50} />
+              </div>            
+              <Link href="/" className="text-2xl font-bold text-[#065430]">Arthurite Integrated</Link>
+            </div>
+            
           </motion.div>
           <div className="hidden md:flex space-x-4">
             <NavLink href="#about">About</NavLink>
@@ -23,7 +31,7 @@ export default function Header() {
             <NavLink href="#schedule">Schedule</NavLink>
             <NavLink href="#contact">Contact</NavLink>
           </div>
-          <a target='blank' href="https://tix.africa/the-transformative-cloud-innovations-the-future-is-cloud">
+          <a target='blank' href="https://www.meetup.com/meetup-group-culecvjx/events/305398186/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
