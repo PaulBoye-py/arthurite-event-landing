@@ -1,31 +1,33 @@
 'use client'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import Man from '../assets/man.png'
+import Woman from '../assets/woman.png'
 
 const panelists = [
   {
-    name: "Alice Johnson",
-    title: "AI Research Scientist",
-    bio: "Alice is a leading expert in artificial intelligence and machine learning.",
-    image: "/placeholder.svg"
+    name: "Mystery Panelist #1",
+    title: "Industry Trailblazer",
+    bio: "This panelist has been instrumental in shaping the future of technology and innovation.",
+    image: Man // Replace with an intriguing placeholder image
   },
   {
-    name: "Bob Smith",
-    title: "Cybersecurity Specialist",
-    bio: "Bob has been at the forefront of cybersecurity for over a decade.",
-    image: "/placeholder.svg"
+    name: "Mystery Panelist #2",
+    title: "Visionary Thought Leader",
+    bio: "With deep expertise and groundbreaking insights, this panelist is a true game-changer.",
+    image: Woman,
   },
   {
-    name: "Carol Williams",
-    title: "Blockchain Developer",
-    bio: "Carol is pioneering new applications of blockchain technology.",
-    image: "/placeholder.svg"
+    name: "Mystery Panelist #3",
+    title: "Innovative Pioneer",
+    bio: "A trailblazer in their field, pushing boundaries and inspiring change globally.",
+    image: Man,
   },
   {
-    name: "David Brown",
-    title: "UX Design Lead",
-    bio: "David creates user-centric designs for some of the world's top tech companies.",
-    image: "/placeholder.svg"
+    name: "Mystery Panelist #4",
+    title: "Creative Problem Solver",
+    bio: "Known for their unique perspectives and transformative ideas, this panelist is a force to reckon with.",
+    image: Woman,
   }
 ]
 
@@ -44,7 +46,7 @@ export default function PanelSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {panelists.map((panelist, index) => (
             <motion.div
-              key={panelist.name}
+              key={index}
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -67,4 +69,3 @@ export default function PanelSection() {
     </section>
   )
 }
-

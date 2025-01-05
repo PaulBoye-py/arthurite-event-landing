@@ -27,7 +27,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="flex justify-center space-x-4"
         >
-          <a className="btn-secondary">Learn More</a>
+          <a target='blank' href="https://www.meetup.com/meetup-group-culecvjx/events/305398186/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link" className="btn-secondary">Learn More</a>
           <a target='blank' href="https://www.meetup.com/meetup-group-culecvjx/events/305398186/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link">
           <motion.button
             whileHover={{ scale: 1.05 }}

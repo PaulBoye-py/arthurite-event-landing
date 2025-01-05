@@ -34,7 +34,7 @@ export default function ContactForm() {
       if (response.ok) {
         toast({
           title: "Success!",
-          description: "Email sent successfully!",
+          description: "Inquiry sent successfully!",
           variant: "default",
         })
         setFormData({ email: '', subject: '', message: '', name: '' }) // Clear the form
