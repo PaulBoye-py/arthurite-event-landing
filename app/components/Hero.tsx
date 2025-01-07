@@ -32,7 +32,7 @@ export default function Hero() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="btn-primary hidden md:block"
+            className="btn-primary md:block"
           >
             Register Now
           </motion.button>

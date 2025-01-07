@@ -25,7 +25,7 @@ export default function RegisterCTA() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="btn-secondary hidden md:block"
+            className="btn-secondary md:block"
           >
             Register Now
           </motion.button>

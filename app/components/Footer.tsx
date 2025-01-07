@@ -72,7 +72,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <p className="text-gray-400 mb-2">No 2, Nnobi Street, Kilo,</p>
             <p className="text-gray-400 mb-2">Surulere Lagos.</p>
-            <p className="text-gray-400 mb-2">Email: info@arthurite.com</p>
+            <p className="text-gray-400 mb-2">Email: info@arthuriteintegrated.com</p>
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
