@@ -1,7 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import Woman from '../assets/woman.png'
+import Kayode from '../assets/kayode.webp'
 
 export default function KeynoteSpeaker() {
   return (
@@ -23,21 +23,18 @@ export default function KeynoteSpeaker() {
         >
           <div className="flex flex-col md:flex-row items-center gap-8">
             <Image 
-              src={Woman} // Replace with an intriguing placeholder image
-              alt="Mystery Speaker" 
-              width={300} 
-              height={300} 
+              src={Kayode} // Replace with an intriguing placeholder image
+              alt="Speaker" 
+              width={150} 
+              height={150} 
               className="rounded-full shadow-lg"
             />
             <div>
-              <h3 className="text-3xl font-bold text-[#065430] mb-2">Who Could It Be?</h3>
-              <p className="text-xl text-gray-600 mb-4">World-Class Expert & Visionary</p>
+              <h3 className="text-3xl font-bold text-[#065430] mb-2">Kayode A. Akomolafe (Tech Ranger)</h3>
+              <p className="text-xl text-gray-600 mb-4">Visionary Cloud Transformation Leader</p>
               <p className="text-gray-700 leading-relaxed">
-                Our keynote speaker is a trailblazer in their field, known for groundbreaking insights and 
-                transformative ideas. They have shaped industries and inspired innovation globally. 
-                Stay tuned as we unveil this remarkable personality who will share their vision on <strong>The Future of Cloud Technology</strong> and its revolutionary impact.
+              Kayode A. Akomolafe, fondly known as "Tech Ranger," is a seasoned leader with over two decades of experience in leveraging technology to drive innovation and growth. As the Digital Transformation Director at Amazon Web Services (AWS), Kayode has spearheaded transformative cloud initiatives that consistently deliver exceptional results, redefining business success across industries. Recognized for his technical expertise and strategic acumen, Kayode remains a trusted advisor, guiding organizations to unlock their full potential through cloud solutions.
               </p>
-              <p className="text-[#065430] mt-4 font-medium">Announcement Coming Soon!</p>
             </div>
           </div>
         </motion.div>
